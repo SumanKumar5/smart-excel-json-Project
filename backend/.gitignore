@@ -1,0 +1,50 @@
+# Maven target directories
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Maven Wrapper JAR
+!.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+*.log
+
+# Local environment config
+.env
+*.env
+
+# Application secrets (if you ever use these)
+src/main/resources/application.properties
+
+# STS (Spring Tool Suite)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# VS Code
+.vscode/
+
+# Misc
+HELP.md
+.DS_Store
+Thumbs.db
