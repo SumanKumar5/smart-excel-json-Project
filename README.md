@@ -1,5 +1,5 @@
 
-# 🧠 Smart Excel-JSON Tool (Full Stack Monorepo)
+# Smart Excel-JSON Tool (Full Stack Monorepo)
 
 [![Java](https://img.shields.io/badge/Java-21-blue?logo=java)](https://www.oracle.com/java/)
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2.4-brightgreen?logo=spring-boot)](https://spring.io/projects/spring-boot)
@@ -13,16 +13,16 @@
 
 ---
 
-## ✨ Live Demo
+## Live Demo
 
 ![Smart Excel-JSON Demo](./frontend/public/demo.gif)
 
-- 🔗 Frontend: [https://www.smartexceljson.live](https://www.smartexceljson.live)
-- 🔗 Backend: [https://smartexceljson.me](https://smartexceljson.me)
+- Frontend: [https://www.smartexceljson.live](https://www.smartexceljson.live)
+- Backend: [https://smartexceljson.me](https://smartexceljson.me)
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 smart-excel-json-tool-submission/
@@ -32,19 +32,19 @@ smart-excel-json-tool-submission/
 
 ---
 
-## 🔥 Core Features
+## Core Features
 
-- ✅ Excel ➝ JSON conversion (multi-sheet support)
-- ✅ JSON ➝ Excel (with AI-modified cell highlights + tooltips)
-- ✅ AI-based JSON schema generation from Excel preview
-- ✅ Gemini AI integration for data cleaning + insights
-- ✅ Caching, rate limiting, async processing (Mono)
-- ✅ Fully responsive animated UI (Framer Motion, Tailwind)
-- ✅ Base64 downloads, Monaco Editor, JSON Viewer
+- Excel ➝ JSON conversion (multi-sheet support)
+- JSON ➝ Excel (with AI-modified cell highlights + tooltips)
+- AI-based JSON schema generation from Excel preview
+- Gemini AI integration for data cleaning + insights
+- Caching, rate limiting, async processing (Mono)
+- Fully responsive animated UI (Framer Motion, Tailwind)
+- Base64 downloads, Monaco Editor, JSON Viewer
 
 ---
 
-## 🧪 Backend API Endpoints
+## Backend API Endpoints
 
 All APIs live at: `https://smartexceljson.me`
 
@@ -56,7 +56,7 @@ All APIs live at: `https://smartexceljson.me`
 
 ---
 
-## 🧰 Frontend Stack
+## Frontend Stack
 
 - **React 18.3.1**, **TypeScript**, **Vite 5.4.2**
 - Tailwind CSS, Framer Motion, Lucide React
@@ -65,7 +65,7 @@ All APIs live at: `https://smartexceljson.me`
 
 ---
 
-## ⚙️ Backend Stack
+## Backend Stack
 
 - Java 21, Spring Boot 3.2.4
 - Spring WebFlux (Reactive)
@@ -74,9 +74,9 @@ All APIs live at: `https://smartexceljson.me`
 
 ---
 
-## ▶️ How to Run Locally
+## How to Run Locally
 
-### 🔧 Backend
+### Backend
 
 ```bash
 cd backend
@@ -86,7 +86,7 @@ cp src/main/resources/application.properties.example src/main/resources/applicat
 ./mvnw spring-boot:run
 ```
 
-### 🔧 Frontend
+### Frontend
 
 ```bash
 cd frontend
@@ -97,6 +97,6 @@ npm run dev
 
 ---
 
-## 📘 License
+## License
 
 MIT — [Suman Kumar](https://github.com/SumanKumar5)
